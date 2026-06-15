@@ -138,31 +138,23 @@ font-family:cursive;
 }
 
 .photo-box{
-
-margin:25px auto;
-
-width:260px;
-
-height:320px;
-
-border-radius:25px;
-
-overflow:hidden;
-
-border:4px solid hotpink;
-
-box-shadow:0 0 30px hotpink;
-
+    width:260px;
+    height:320px;
+    margin:25px auto;
+    overflow:hidden;
+    border-radius:20px;
+    border:4px solid hotpink;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#111;
 }
 
 .photo-box img{
-
-width:100%;
-
-height:100%;
-
-object-fit:cover;
-
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
 }
 
 #gameBox h2{
