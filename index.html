@@ -1,37 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Love Surprise</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For My Ammaadi ❤️</title>
 
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-<div class="gift-overlay" id="giftOverlay">
-    <div class="gift-box-btn" id="openGiftBtn">🎁</div>
-    <div class="gift-text">Tap to open your surprise</div>
-</div>
+<body>
 
 <canvas id="heartCanvas"></canvas>
 
+<!-- Background Music -->
+<audio id="bgMusic" loop>
+    <source src="assets/music.m4a" type="audio/mp4">
+</audio>
+
+<!-- Gift Screen -->
+<div class="gift-overlay" id="giftOverlay">
+
+    <div class="gift-box" id="openGiftBtn">
+        🎁
+    </div>
+
+    <h2>Tap the Gift ❤️</h2>
+
+</div>
+
+<!-- Main Page -->
+
 <div class="main-stage" id="mainStage">
-    <h1 class="neon-title">I Love You <span class="sub-name">Ammaadi</span></h1>
 
-    <div id="gameBox">
-        <p class="question-text">Do you love me too? 😉</p>
-        <div class="btn-group">
-            <button class="game-btn" id="yesBtn">YES! ❤️</button>
-            <button class="game-btn" id="noBtn">No</button>
-        </div>
-    </div>
+<h1 class="title">
+I Love You
+<span>Ammaadi ❤️</span>
+</h1>
 
-    <div class="success-message" id="successMsg">
-        I knew it! No matter where life takes us, my favorite place in the entire world will always be right next to you. 🥰🏡❤️
-    </div>
+<div class="photo-box">
+
+<img src="assets/couple.jpg" alt="Couple">
+
+</div>
+
+<div id="gameBox">
+
+<h2>Do You Love Me Too? 🥺❤️</h2>
+
+<div class="btns">
+
+<button id="yesBtn">
+YES ❤️
+</button>
+
+<button id="noBtn">
+NO 😒
+</button>
+
+</div>
+
+</div>
+
+<div id="success">
+
+<h2>🥰 I knew it!!</h2>
+
+<p>
+
+Every moment with you becomes my favorite memory.
+
+No matter what happens,
+
+I will always choose YOU.
+
+❤️ Forever Yours ❤️
+
+</p>
+
+</div>
+
 </div>
 
 <script src="script.js"></script>
+
 </body>
 </html>
